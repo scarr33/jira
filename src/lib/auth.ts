@@ -32,7 +32,9 @@ export const authOptions: NextAuthOptions = {
           },
         });
 
-        session.user.id = userId?.id;
+        if (userId && session.user) {
+          session.user.id = userId?.id;
+        }
       }
       return session;
     },
