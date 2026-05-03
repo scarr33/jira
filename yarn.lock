@@ -4956,6 +4956,7 @@ __metadata:
     next: "npm:14.0.4"
     next-auth: "npm:^4.24.13"
     postcss: "npm:^8"
+    preact: "npm:10.11.3"
     prisma: "npm:^5.10.2"
     react: "npm:^18"
     react-dom: "npm:^18"
