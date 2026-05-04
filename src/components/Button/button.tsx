@@ -4,14 +4,16 @@ import { ReactNode } from "react";
 
 interface ButtonProps {
   onClick?: () => void;
-  children: ReactNode;
+  primary?: Boolean;
+  label?: String;
+  size?: String;
 }
 
 export const Button = (props: ButtonProps) => {
-  const { onClick, children } = props;
+  const { onClick, label } = props;
   return (
     <button onClick={onClick} data-testid="button-test">
-      {children}
+      {label}
     </button>
   );
 };
