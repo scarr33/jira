@@ -52,7 +52,7 @@
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
     "eslint-config-next": "14.0.4",
-    "eslint-plugin-storybook": "^0.8.0",
+    "eslint-plugin-storybook": "^0.6.15",
     "jest-util": "^30.2.0",
     "postcss": "^8",
     "prisma": "^5.10.2",
