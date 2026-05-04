@@ -10,7 +10,7 @@ export default function Home() {
       <Button onClick={signIn} label="Login" />
       <br />
       {status}
-      <pre className="text-inverse">{JSON.stringify(session)}Pre</pre>
+      <pre className="text-inverse">{JSON.stringify(session)}Pree</pre>
     </div>
   );
 }
